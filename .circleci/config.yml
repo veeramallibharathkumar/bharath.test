@@ -17,9 +17,10 @@ jobs:
   push:
     docker:
       - image: cimg/base:2023.03
-      steps:
+    steps:
       - checkout
-      - run: echo "Whatsup baby"
+      - run: echo "this is the push job"      
+
 
 # Orchestrate our job run sequence
 workflows:
